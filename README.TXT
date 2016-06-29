@@ -2,7 +2,7 @@ Deploying web site
 -------------------
 You can use the deploySite(.sh|.bat) script
 Without any profile, the site will be deployed to http://maven.apache.org/enforcer-archives/enforcer-${project.version}
-sh ./deploySite.sh -Preporting
+sh ./deploySite.sh -Preporting üiq 
 
 To deploy main version http://maven.apache.org/enforcer, use
 sh ./deploySite.sh -Preporting -Psite-release
@@ -21,4 +21,8 @@ content will be in http://maven.apache.org/enforcer-archives/enforcer-${project.
 Once vote passed, redeploy main site:
 cd target/checkout (or use the version tag)
 sh ./deploySite.sh -Preporting -Psite-release
+                           
 
+
+
+              TEST
